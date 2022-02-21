@@ -4,6 +4,7 @@ Documentation     A test suite with a single test for page Home.
 Library           SeleniumLibrary
 Library           OperatingSystem
 Library  		  Collections
+Library           DateTime
 
 Resource          resource.robot
 
@@ -29,3 +30,8 @@ Select By Value
 Exit Selenium
     Capture Page Screenshot
     Close Browser
+
+Fill Year For DateTime
+    ${TODAY}    Get Current Date
+    ${TODAY}    Convert Date    ${TODAY}   datetime
+    [return]    ${TODAY.month}  ${TODAY.day}  ${TODAY.year}

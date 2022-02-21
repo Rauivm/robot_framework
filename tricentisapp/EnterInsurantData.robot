@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     Fill field of insurance data.
+Documentation     A test suite with a single test for page Home.
 
 Resource          resource.robot
 
