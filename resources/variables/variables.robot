@@ -1,6 +1,9 @@
 *** Variables ***
 ${BROWSER}        Chrome
 ${URL}        http://sampleapp.tricentis.com/101/app.php
+${Next}    xpath://button[@id='nextenterinsurantdata']
+
+${menu}    xpath=//ul[@class='menu']/li/a[text()='{item_name}']
 
 
 

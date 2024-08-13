@@ -1,7 +1,7 @@
 *** Variables ***
 
 ${make}                        xpath://select[@id='make']
-${valueMake}                   ['Audi','BMW','Ford','Honda','Mazda', 'Merceds Benz', 'Nissan','Opel', 'Porshe', 'Renault', 'Skoda', 'Suzuki','Toyota','Volkswagen','Volvo']
+@{valueMake}                   Audi  BMW  Ford  Honda  Mazda  Merceds Benz  Nissan  Opel  Porshe  Renault  Skoda  Suzuki  Toyota  Volkswagen  Volvo
 ${enginePerformance}           xpath://input[@id='engineperformance']
 ${dateOfManufacture}           xpath://input[@id='dateofmanufacture']
 ${model}                       xpath://select[@id='model']
@@ -19,7 +19,7 @@ ${valueNumberOfSeats}          2
 ${rightHandDriveNo}            //div[7]/p/label[2]/span
 ${numberOfSeatsMotorcycle}     xpath://select[@id='numberofseatsmotorcycle']
 ${fuelType}                    xpath://select[@id='fuel']
-${valueFuelType}               Gas
+@{valueFuelType}               Petrol  Diesel  Electric Power  Gas  Other
 ${payload}                     xpath://input[@id='payload']
 ${valuePayload}                1000
 ${totalWeight}                 xpath://input[@id='totalweight']
