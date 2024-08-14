@@ -29,3 +29,7 @@ Fill Year For DateTime
     ${TODAY}    Get Current Date
     ${TODAY}    Convert Date    ${TODAY}   datetime
     [return]    ${TODAY.month}  ${TODAY.day}  ${TODAY.year}
+
+Next
+    [Arguments]    ${next}
+    Click Button    ${next} 

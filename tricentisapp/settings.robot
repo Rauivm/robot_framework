@@ -13,7 +13,7 @@ Resource          resource.robot
 
 #botão
 
-${Next}    xpath://button[@id='nextenterinsurantdata']
+
 
 
 *** Keywords ***

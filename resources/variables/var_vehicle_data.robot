@@ -5,6 +5,7 @@ ${make}                        xpath://select[@id='make']
 ${enginePerformance}           xpath://input[@id='engineperformance']
 ${dateOfManufacture}           xpath://input[@id='dateofmanufacture']
 ${model}                       xpath://select[@id='model']
+${Next}    xpath://button[@id='nextenterinsurantdata']
 
 ${menu_automobile}             //*[@id="nav_automobile"]
 ${valueModel}                  Scooter

@@ -16,4 +16,4 @@ Test
     Fill List Price [$]    1000
     Fill License Plate Number    abcde12345
     Fill Annual Mileage [mi]    7000
-    Next
+    Next   ${Next}
