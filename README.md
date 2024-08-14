@@ -2,7 +2,7 @@
 
 ## Introdução
 Esse teste acessa o seguinte "app" http://sampleapp.tricentis.com/101/app.php e realiza as seguintes tarefas.
-
+Selecionar o seguro para Automobile insurance
 1. Enter Vehicle Data
 2. Enter Insurant Data
 3. Enter Product Data
