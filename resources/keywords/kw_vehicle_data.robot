@@ -66,4 +66,7 @@ Fill License Plate Number
 Fill Annual Mileage [mi]
     [Arguments]    ${value}
     Input Text    ${annualMileage}    ${value}
+
+Next To Insurant Data
+    Click Button    ${Next}
    

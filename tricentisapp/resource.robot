@@ -53,7 +53,7 @@ ${nextSelectPriceOption}    //button[@id='nextselectpriceoption']
 
 #Select Price Option
 ${priceOption}    xpath://th/label[4]
-${nextQuote}    xpath://div[2]/button[2]
+${nextQuote}    xpath://*[@id="nextsendquote"]
 
 
 

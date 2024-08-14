@@ -49,20 +49,13 @@ Choice Occupation By Index
 Choice Hobbies
     [Arguments]  @{options}
     FOR  ${option}  IN  @{options}
-      Log    //*[@id="${option}"]
+      #Log    //*[@id="${option}"]
       Wait Until Element Is Enabled    //*[@id="${option}"]
       Run Keyword If  '${option}' != ''  Click Element    //*[@id="${option}"]//ancestor::label/span
     END
 Fill Website
     [Arguments]   ${url}
     Input Text    ${website}    ${URL}
-Fill Insurant Data
-    Input Text    ${firstName}    Raui
-    Input Text    ${lastName}    Macedo
-    Input Text    ${dateOfBirth}    01/01/2000
-    Click Element    ${gender}
-    Select By Value    ${country}   Brazil
-    Input Text    ${zipCode}    01400000
-    Select By Value    ${occupation}  Employee
-    Click Element     ${hobbies}
+
+Next To Product Data
     Click Button    ${nextProductData}

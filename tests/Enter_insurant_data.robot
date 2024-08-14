@@ -4,9 +4,9 @@ Resource  ../resources/keywords/kw_insurant_data.robot
 Resource  ../resources/variables/variables.robot
 
 *** Test Cases ***
-Test Insurant
-    Open Browser Page
-    Select Menu Item   Automobile
+Test Enter Insurant Data
+#    Open Browser Page
+#    Select Menu Item   Automobile
     Fill Name   Test
     Fill Last Name    Sobrenome
     Fill Date Of Birth    01/01/2000
